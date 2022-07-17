@@ -1,0 +1,64 @@
+/* 
+  Localizable.strings
+  swift_study
+
+  Created by Ádám Fischer on 2022. 08. 29..
+  Copyright © 2022. Ádám Fischer. All rights reserved.
+*/
+
+/* Title of tab bar button leading to Statistics screen. */
+"STATISTICS_TABBAR_TITLE" = "Statisztika";
+
+/* Title of tab bar button leading to Transactions screen. */
+"TRANSACTIONS_TABBAR_TITLE" = "Tranzakciók";
+
+/* Title of screen showing transaction statistics. */
+"STATISTICS_SCREEN_TITLE" = "Tranzakciók kategória szerint";
+
+/* Placeholder text of searchbar used to filter transactions. */
+"SEARCHBAR_PLACEHOLDER" = "Szűrés";
+
+/* Title of screen showing details of a transaction." */
+"TRANSACTION_DETAILS_TITLE" = "Tranzakció részletei";
+
+/* Name of an transaction category. */
+"CATEGORY_CLOTHING" = "Ruházkodás";
+
+/* Name of an transaction category. */
+"CATEGORY_HOUSING" = "Lakhatás";
+
+/* Name of an transaction category. */
+"CATEGORY_TRAVEL" = "Utazás";
+
+/* Name of an transaction category. */
+"CATEGORY_FOOD" = "Étel";
+
+/* Name of an transaction category. */
+"CATEGORY_UTILITIES" = "Rezsi";
+
+/* Name of an transaction category. */
+"CATEGORY_INSURANCE" = "Biztosítás";
+
+/* Name of an transaction category. */
+"CATEGORY_FINANCIAL" = "Pénzügyek";
+
+/* Name of an transaction category. */
+"CATEGORY_LIFESTYLE" = "Életmód";
+
+/* Name of an transaction category. */
+"CATEGORY_ENTERTAINMENT" = "Szórakozás";
+
+/* Name of an transaction category. */
+"CATEGORY_MISC" = "Egyéb";
+
+/* Name of an transaction category. */
+"CATEGORY_UNKNOWN" = "Ismeretlen";
+
+/* Title of error message. */
+"ERROR" = "Hiba";
+
+/* Title of OK button */
+"OK" = "OK";
+
+/* Localized description of error. */
+"ERROR_NO_DATA_RECEIVED" = "Nem érkezett adat a szervertől.";

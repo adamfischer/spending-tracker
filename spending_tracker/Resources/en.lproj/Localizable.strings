@@ -1,0 +1,64 @@
+/* 
+  Localizable.strings
+  swift_study
+
+  Created by Ádám Fischer on 2022. 08. 29..
+  Copyright © 2022. Ádám Fischer. All rights reserved.
+*/
+
+/* Title of tab bar button leading to Statistics screen. */
+"STATISTICS_TABBAR_TITLE" = "Statistics";
+
+/* Title of tab bar button leading to Transactions screen. */
+"TRANSACTIONS_TABBAR_TITLE" = "Transactions";
+
+/* Title of screen showing transaction statistics. */
+"STATISTICS_SCREEN_TITLE" = "Transactions by category";
+
+/* Placeholder text of searchbar used to filter transactions. */
+"SEARCHBAR_PLACEHOLDER" = "Filter";
+
+/* Title of screen showing details of a transaction." */
+"TRANSACTION_DETAILS_TITLE" = "Transaction Details";
+
+/* Name of an transaction category. */
+"CATEGORY_CLOTHING" = "Clothing";
+
+/* Name of an transaction category. */
+"CATEGORY_HOUSING" = "Housing";
+
+/* Name of an transaction category. */
+"CATEGORY_TRAVEL" = "Travel";
+
+/* Name of an transaction category. */
+"CATEGORY_FOOD" = "Food";
+
+/* Name of an transaction category. */
+"CATEGORY_UTILITIES" = "Utilities";
+
+/* Name of an transaction category. */
+"CATEGORY_INSURANCE" = "Insurance";
+
+/* Name of an transaction category. */
+"CATEGORY_FINANCIAL" = "Financial";
+
+/* Name of an transaction category. */
+"CATEGORY_LIFESTYLE" = "Lifestyle";
+
+/* Name of an transaction category. */
+"CATEGORY_ENTERTAINMENT" = "Entertainment";
+
+/* Name of an transaction category. */
+"CATEGORY_MISC" = "Miscellaneous";
+
+/* Name of an transaction category. */
+"CATEGORY_UNKNOWN" = "Unknown";
+
+/* Title of error message. */
+"ERROR" = "Error";
+
+/* Title of OK button */
+"OK" = "OK";
+
+/* Localized description of error. */
+"ERROR_NO_DATA_RECEIVED" = "No data received from server.";
