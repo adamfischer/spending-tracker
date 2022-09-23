@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -18,7 +18,6 @@
 		719764E428D0BB000071A66D /* UtilityFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719764E328D0BB000071A66D /* UtilityFunctions.swift */; };
 		719764E628D0C4F30071A66D /* TransactionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719764E528D0C4F30071A66D /* TransactionStore.swift */; };
 		71AC448A28DCFB4E008CBC5A /* SpendingTrackerError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AC448928DCFB4E008CBC5A /* SpendingTrackerError.swift */; };
-		71BA366D28C10AF5005BEE84 /* Charts in Frameworks */ = {isa = PBXBuildFile; productRef = 71BA366C28C10AF5005BEE84 /* Charts */; };
 		71C2B6F228B69A4D002E6340 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71C2B6F128B69A4C002E6340 /* Assets.xcassets */; };
 		71CE8F3728A1AA9700C80DDD /* TransactionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CE8F3528A1AA9700C80DDD /* TransactionTableViewCell.swift */; };
 		71CE8F3828A1AA9700C80DDD /* TransactionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71CE8F3628A1AA9700C80DDD /* TransactionTableViewCell.xib */; };
@@ -57,7 +56,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71BA366D28C10AF5005BEE84 /* Charts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,7 +169,6 @@
 			);
 			name = spending_tracker;
 			packageProductDependencies = (
-				71BA366C28C10AF5005BEE84 /* Charts */,
 			);
 			productName = swift_study;
 			productReference = 7106134A2884298E002E4AE8 /* Spending Tracker.app */;
@@ -203,7 +200,6 @@
 			);
 			mainGroup = 710613412884298E002E4AE8;
 			packageReferences = (
-				71BA366B28C10AF5005BEE84 /* XCRemoteSwiftPackageReference "Charts" */,
 			);
 			productRefGroup = 7106134B2884298E002E4AE8 /* Products */;
 			projectDirPath = "";
@@ -443,25 +439,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		71BA366B28C10AF5005BEE84 /* XCRemoteSwiftPackageReference "Charts" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/danielgindi/Charts.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 3.0.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		71BA366C28C10AF5005BEE84 /* Charts */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 71BA366B28C10AF5005BEE84 /* XCRemoteSwiftPackageReference "Charts" */;
-			productName = Charts;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 710613422884298E002E4AE8 /* Project object */;
 }

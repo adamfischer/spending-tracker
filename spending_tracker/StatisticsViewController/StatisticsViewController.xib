@@ -10,7 +10,6 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="StatisticsViewController" customModule="Spending_Tracker" customModuleProvider="target">
             <connections>
-                <outlet property="pieChartView" destination="CLB-Up-OuB" id="PSZ-nM-ok9"/>
                 <outlet property="titleLabel" destination="vjm-ER-gQn" id="f5o-Cb-hzQ"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
@@ -26,20 +25,12 @@
                     <color key="textColor" name="foregroundColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CLB-Up-OuB" customClass="PieChartView" customModule="Charts">
-                    <rect key="frame" x="0.0" y="130.5" width="414" height="731.5"/>
-                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                </view>
             </subviews>
             <color key="backgroundColor" name="backgroundColor"/>
             <constraints>
-                <constraint firstItem="CLB-Up-OuB" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="8kh-Xj-6bV"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="CLB-Up-OuB" secondAttribute="bottom" id="S0C-NS-H54"/>
                 <constraint firstItem="vjm-ER-gQn" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="YZY-y3-ONx"/>
                 <constraint firstItem="vjm-ER-gQn" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="40" id="cgg-fk-REv"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="CLB-Up-OuB" secondAttribute="trailing" id="g6G-gy-gKt"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="vjm-ER-gQn" secondAttribute="trailing" constant="20" id="r0h-8x-7PH"/>
-                <constraint firstItem="CLB-Up-OuB" firstAttribute="top" secondItem="vjm-ER-gQn" secondAttribute="bottom" constant="20" id="wGM-Be-mFj"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <point key="canvasLocation" x="132" y="123"/>
