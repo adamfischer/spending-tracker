@@ -62,3 +62,6 @@
 
 /* Localized description of error. */
 "ERROR_NO_DATA_RECEIVED" = "No data received from server.";
+
+/* Localized description of error. */
+"ERROR_HTTP_RESPONSE_STATUS_CODE" = "HTTP response status code";

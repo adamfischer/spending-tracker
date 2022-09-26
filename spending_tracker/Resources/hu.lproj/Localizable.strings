@@ -62,3 +62,6 @@
 
 /* Localized description of error. */
 "ERROR_NO_DATA_RECEIVED" = "Nem érkezett adat a szervertől.";
+
+/* Localized description of error. */
+"ERROR_HTTP_RESPONSE_STATUS_CODE" = "HTTP válasz státusz kód";

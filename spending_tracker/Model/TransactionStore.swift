@@ -32,11 +32,15 @@ class TransactionStore {
                 if let error = error {
                     completion(.failure(error))
                 }
+                else if let response = response as? HTTPURLResponse, !(200...299).contains(response.statusCode) {
+                    let error = NetworkError.httpResponseError(statusCode: response.statusCode)
+                    completion(.failure(error))
+                }
                 else if let data = data {
                     completion(.success(data))
                 }
                 else {
-                    let error = SpendingTrackerError.NoDataReceived
+                    let error = NetworkError.noDataReceived
                     completion(.failure(error))
                 }
             })
