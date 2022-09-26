@@ -27,26 +27,17 @@ class TransactionStore {
     
     private func loadJson(fromURLString urlString: String,
                           completion: @escaping (Result<Data, Error>) -> Void) {
-        if let url = URL(string: urlString) {
-            let urlSession = URLSession(configuration: .default).dataTask(with: url, completionHandler:{ (data, response, error) in
-                if let error = error {
-                    completion(.failure(error))
-                }
-                else if let response = response as? HTTPURLResponse, !(200...299).contains(response.statusCode) {
-                    let error = NetworkError.httpResponseError(statusCode: response.statusCode)
-                    completion(.failure(error))
-                }
-                else if let data = data {
-                    completion(.success(data))
-                }
-                else {
-                    let error = NetworkError.noDataReceived
-                    completion(.failure(error))
-                }
-            })
-            
-            urlSession.resume()
+        let url = URL(string: urlString)!
+        let urlSession = URLSession(configuration: .default).dataTask(with: url) { result in
+            switch result {
+            case .success(let data):
+                completion(.success(data))
+            case .failure(let error):
+                completion(.failure(error))
+            }
         }
+        
+        urlSession.resume()
     }
     
     public func fetchTransactions(completion: @escaping (Result<[Transaction], Error>) -> Void) {
