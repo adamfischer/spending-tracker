@@ -6,20 +6,11 @@
   Copyright © 2022. Ádám Fischer. All rights reserved.
 */
 
-/* Title of tab bar button leading to Statistics screen. */
-"STATISTICS_TABBAR_TITLE" = "Statisztika";
-
-/* Title of tab bar button leading to Transactions screen. */
-"TRANSACTIONS_TABBAR_TITLE" = "Tranzakciók";
-
-/* Title of screen showing transaction statistics. */
-"STATISTICS_SCREEN_TITLE" = "Tranzakciók kategória szerint";
-
 /* Placeholder text of searchbar used to filter transactions. */
 "SEARCHBAR_PLACEHOLDER" = "Szűrés";
 
-/* Title of screen showing details of a transaction." */
-"TRANSACTION_DETAILS_TITLE" = "Tranzakció részletei";
+/* "Title of screen which allows user to edit a transaction." */
+"EDIT_TRANSACTION_TITLE" = "Szerkesztés";
 
 /* Name of an transaction category. */
 "CATEGORY_CLOTHING" = "Ruházkodás";
@@ -52,7 +43,7 @@
 "CATEGORY_MISC" = "Egyéb";
 
 /* Name of an transaction category. */
-"CATEGORY_UNKNOWN" = "Ismeretlen";
+"CATEGORY_HEALTHCARE" = "Egészségügy";
 
 /* Title of error message. */
 "ERROR" = "Hiba";
@@ -60,8 +51,44 @@
 /* Title of OK button */
 "OK" = "OK";
 
-/* Localized description of error. */
-"ERROR_NO_DATA_RECEIVED" = "Nem érkezett adat a szervertől.";
+/* Title of Cancel button */
+"CANCEL" = "Mégse";
 
-/* Localized description of error. */
-"ERROR_HTTP_RESPONSE_STATUS_CODE" = "HTTP válasz státusz kód";
+/* Title of Save button */
+"SAVE" = "Mentés";
+
+/* Title of Done button */
+"DONE" = "Kész";
+
+/* Error message title. */
+"RETRYING_IN_X_SECONDS_STRING" = "Újrapróbálkozás %@ másodperc múlva...";
+
+/* Title of button which changes the category of a transaction.*/
+"SET_CATEGORY" = "Kategória beállítása";
+
+/* Title of button which changes the date of a transaction. */
+"SET_DATE" = "Dátum beállítása";
+
+/* Title of button which changes the price of a transaction. */
+"SET_AMOUNT" = "Összeg beállítása";
+
+/* Title of button which changes the currency of a transaction. */
+"SET_CURRENCY" = "Pénznem beállítása";
+
+/* Title of Delete button */
+"DELETE" = "Törlés";
+
+/* Title of textfield where user enters a transaction's price. */
+"ENTER_NEW_SUM" = "Új összeg:";
+
+/* Placeholder of textfield where user enters a transaction's description. */
+"SUMMARY" = "Összefoglaló";
+
+/* Title of button which deletes all Transactions from the cache. */
+"CLEAR_CACHE" = "Cache törlése";
+
+/* Placeholder text of searchbar used to filter transactions. */
+"SEARCHBAR_PLACEHOLDER" = "Szűrés";
+
+/* Error text shown when a user entered string cannot be converted to a number. */
+"ERROR_CONVERSION_TO_NUMBER" = "A \"%@\" szöveget nem sikerült számmá konvertálni.";

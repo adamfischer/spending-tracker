@@ -6,20 +6,11 @@
   Copyright © 2022. Ádám Fischer. All rights reserved.
 */
 
-/* Title of tab bar button leading to Statistics screen. */
-"STATISTICS_TABBAR_TITLE" = "Statistics";
-
-/* Title of tab bar button leading to Transactions screen. */
-"TRANSACTIONS_TABBAR_TITLE" = "Transactions";
-
-/* Title of screen showing transaction statistics. */
-"STATISTICS_SCREEN_TITLE" = "Transactions by category";
-
 /* Placeholder text of searchbar used to filter transactions. */
 "SEARCHBAR_PLACEHOLDER" = "Filter";
 
-/* Title of screen showing details of a transaction." */
-"TRANSACTION_DETAILS_TITLE" = "Transaction Details";
+/* "Title of screen which allows user to edit a transaction." */
+"EDIT_TRANSACTION_TITLE" = "Edit";
 
 /* Name of an transaction category. */
 "CATEGORY_CLOTHING" = "Clothing";
@@ -52,7 +43,7 @@
 "CATEGORY_MISC" = "Miscellaneous";
 
 /* Name of an transaction category. */
-"CATEGORY_UNKNOWN" = "Unknown";
+"CATEGORY_HEALTHCARE" = "Healthcare";
 
 /* Title of error message. */
 "ERROR" = "Error";
@@ -60,8 +51,44 @@
 /* Title of OK button */
 "OK" = "OK";
 
-/* Localized description of error. */
-"ERROR_NO_DATA_RECEIVED" = "No data received from server.";
+/* Title of Cancel button */
+"CANCEL" = "Cancel";
 
-/* Localized description of error. */
-"ERROR_HTTP_RESPONSE_STATUS_CODE" = "HTTP response status code";
+/* Title of Save button */
+"SAVE" = "Save";
+
+/* Title of Done button */
+"DONE" = "Done";
+
+/* Error message title. */
+"RETRYING_IN_X_SECONDS_STRING" = "Retrying in %@ second(s)...";
+
+/* Title of button which changes the category of a transaction.*/
+"SET_CATEGORY" = "Change Category";
+
+/* Title of button which changes the date of a transaction. */
+"SET_DATE" = "Change Date";
+
+/* Title of button which changes the price of a transaction. */
+"SET_AMOUNT" = "Change Price";
+
+/* Title of button which changes the currency of a transaction. */
+"SET_CURRENCY" = "Change Currency";
+
+/* Title of Delete button */
+"DELETE" = "Delete";
+
+/* Title of textfield where user enters a transaction's price. */
+"ENTER_NEW_SUM" = "New price:";
+
+/* Placeholder of textfield where user enters a transaction's description. */
+"SUMMARY" = "Summary";
+
+/* Title of button which deletes all Transactions from the cache. */
+"CLEAR_CACHE" = "Clear Cache";
+
+/* Placeholder text of searchbar used to filter transactions. */
+"SEARCHBAR_PLACEHOLDER" = "Filter";
+
+/* Error text shown when a user entered string cannot be converted to a number. */
+"ERROR_CONVERSION_TO_NUMBER" = "Cannot convert \"%@\" to a number.";
